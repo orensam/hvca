@@ -1,0 +1,638 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 1.5cm
+\secnumdepth -2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ראיה אנושית: גישה חישובית - תרגיל מס'
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Author
+דניאל הדר )ת"ז
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+200380244
+\numeric off
+(, אורן סמואל )ת"ז
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+200170694
+\numeric off
+(
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+מצורף הקובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q5.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ובו הקוד הרלוונטי לשאלה.
+\end_layout
+
+\begin_layout Standard
+בהסתכלות סובייקטיבית על זוג התמונות, העץ נע מהר יותר מהפרחים )הדבר הגיוני,
+ שכן הוא קרוב יותר למצלמה(.
+\end_layout
+
+\begin_layout Standard
+כאשר מפעילים את האלגוריתם על התמונה כולה, מקבלים את המהירות: 
+\begin_inset Formula 
+\[
+v_{full}=\left(-0.9038,-0.0230\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר מסתכלים על איזור בגודל 
+\begin_inset Formula $20\times60$
+\end_inset
+
+ שמכיל רק פרחים )הפינה השמאלית-תחתונה של שתי התמונות(, מקבלים את המהירות:
+ 
+\begin_inset Formula 
+\[
+v_{flowers}=\left(-1.2185,0.0977\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר מסתכלים על איזור בגודל 
+\begin_inset Formula $60\times20$
+\end_inset
+
+ שמכיל רק את העץ )שורות 
+\begin_inset Formula $60$
+\end_inset
+
+ עד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+120
+\numeric off
+, עמודות 
+\begin_inset Formula $101$
+\end_inset
+
+ עד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $120$
+\end_inset
+
+(, מקבלים את המהירות: 
+\begin_inset Formula 
+\[
+v_{tree}=\left(-1.5723,0.0229\right)
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+היחס המתקבל בין הרכיבים האופקיים של מהירות הפרחים והעץ הוא: 
+\begin_inset Formula 
+\[
+\frac{v_{flowers}^{x}}{v_{tree}^{x}}=0.7750
+\]
+
+\end_inset
+
+כלומר, הפרחים זזים במהירות שקטנה ב-
+\begin_inset Formula $\sim23\%$
+\end_inset
+
+ ממהירות העץ.
+ נשים לב שהמהירות האנכית )בין אם בתמונה כולה ובין אם בפרחים ובעץ( זניחה
+ לעומת המהירות האופקית, ולכן האפקט האופטי העיקרי מתרחש בציר האופקי.
+ 
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Standard
+מצורף הקובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q6.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ובו הקוד הרלוונטי לשאלה.
+\end_layout
+
+\begin_layout Standard
+הגרף המתאר את טעות ההערכה כתלות במהירות האופקית, עבור 
+\begin_inset Formula $\sigma=1$
+\end_inset
+
+ )בכחול( ועבור 
+\begin_inset Formula $\sigma=10$
+\end_inset
+
+ )באדום(.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q6_graph.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תחילה, נשים לב שהגרף סימטרי )אופקית( סביב 
+\begin_inset Formula $0$
+\end_inset
+
+, עבור כל אחד מערכי 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+ הדבר הגיוני, מכיוון שאין חשיבות לכיוון של המהירות, אלא רק לגודלה - כמות
+ התזוזה שהתרחשה בין שתי התמונות היא שמשפיעה על גודל הטעות, ואין זה משנה
+ באיזה כיוון התרחשה התנועה.
+\end_layout
+
+\begin_layout Standard
+עבור שני ערכי 
+\begin_inset Formula $\sigma$
+\end_inset
+
+, כאשר המהירות האופקית קרובה ל-
+\begin_inset Formula $0$
+\end_inset
+
+, מקבלים טעות הערכה אפסית - הדבר הגיוני, מפני שעבור תנועות קטנות, קל לאלגוריתם
+ לזהות את המהירות בין כל שתי תמונות.
+ לאחר מכן, חלה עליה מהירה בגודל הטעות, שנהיית מתונה יותר )וניתן לומר - לינארית(
+ ככל שהמהירות ממשיכה לגדול.
+ אלגוריתם לוקאס-קנדה בנוי כדי להתמודד עם חישוב מהירויות קטנות, ולכן הדבר
+ הגיוני.
+\end_layout
+
+\begin_layout Standard
+הגרפים של שני ערכי 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ נבדלים זה מזה בנקודה הקריטית שבה הטעות מפסיקה להיות אפסית - עבור 
+\begin_inset Formula $\sigma=1$
+\end_inset
+
+, הדבר קורה מוקדם יותר לעומת 
+\begin_inset Formula $\sigma=10$
+\end_inset
+
+.
+ הדבר נובע מהגודל היחסי של הגאוסיאן בפריים - לדוגמה, תנועה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פיקסלים היא גדולה מאד ביחס לגאוסיאן הקטן )שקוטרו כ-
+\numeric on
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פיקסלים(, אבל קטנה ביחס לגאוסיאן הגדול )שקוטרו כ-
+\numeric on
+40
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פיקסלים(.
+\end_layout
+
+\end_body
+\end_document
