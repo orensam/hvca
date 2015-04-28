@@ -1,6 +1,7 @@
 %% ex2 q6
 % TestGausSpot plots the estimation error between the true velocity and the
 % velocities calcuated by our algorithm of pairs of Gaussian spots.
+
 x_axis = -100:0.5:100;
 
 for g_size = [1, 10]     % For each sigma: 1, 10
