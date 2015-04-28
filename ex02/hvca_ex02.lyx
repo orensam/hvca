@@ -240,7 +240,14 @@ q5.m
 \uwave default
 \noun default
 \color inherit
-ובו הקוד הרלוונטי לשאלה.
+ובו קוד המטלאב הרלוונטי לשאלה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -353,10 +360,6 @@ v_{tree}=\left(-1.5723,0.0229\right)
 
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
 היחס המתקבל בין הרכיבים האופקיים של מהירות הפרחים והעץ הוא: 
 \begin_inset Formula 
 \[
@@ -373,6 +376,13 @@ v_{tree}=\left(-1.5723,0.0229\right)
  נשים לב שהמהירות האנכית )בין אם בתמונה כולה ובין אם בפרחים ובעץ( זניחה
  לעומת המהירות האופקית, ולכן האפקט האופטי העיקרי מתרחש בציר האופקי.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -455,11 +465,18 @@ q6.m
 \uwave default
 \noun default
 \color inherit
-ובו הקוד הרלוונטי לשאלה.
+ובו קוד המטלאב הרלוונטי לשאלה.
 \end_layout
 
 \begin_layout Standard
-הגרף המתאר את טעות ההערכה כתלות במהירות האופקית, עבור 
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתחיל בהצגת הגרף המתאר את טעות ההערכה כתלות במהירות האופקית, עבור 
 \begin_inset Formula $\sigma=1$
 \end_inset
 
@@ -467,15 +484,29 @@ q6.m
 \begin_inset Formula $\sigma=10$
 \end_inset
 
- )באדום(.
+ )באדום(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename q6_graph.png
-	scale 50
+	scale 60
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
 \end_inset
 
 
@@ -634,6 +665,13 @@ q6.m
 פיקסלים(.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -664,7 +702,145 @@ q6.m
 \end_layout
 
 \begin_layout Standard
-נתחיל בחישוב עבור המעוין השמן.
+מצורף הקובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q7.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ובו קוד המטלאב הרלוונטי לשאלה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+חישוב
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+IOC
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+VA
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור המעוין השמן
 \end_layout
 
 \begin_layout Standard
@@ -781,14 +957,7 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename q7_fat.png
-	scale 30
-
-\end_inset
-
-
+ובאופו גרפי:
 \end_layout
 
 \begin_layout Standard
@@ -799,7 +968,102 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
-כעת נבצע את החישוב עבור המעוין הרזה.
+\align center
+\begin_inset Graphics
+	filename q7_fat.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+חישוב
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+IOC
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+VA
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור המעוין הרזה
 \end_layout
 
 \begin_layout Standard
@@ -912,14 +1176,36 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
+ובאופן גרפי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename q7_thin.png
-	scale 30
+	scale 60
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+חישוב המהירות הנמדדת כתלות בבקונטרסט ומספר האיטרציות
 \end_layout
 
 \begin_layout Standard
@@ -938,7 +1224,7 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \align center
 \begin_inset Graphics
 	filename q7_fat_graph.png
-	scale 50
+	scale 70
 
 \end_inset
 
@@ -956,7 +1242,7 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \align center
 \begin_inset Graphics
 	filename q7_thin_graph.png
-	scale 50
+	scale 70
 
 \end_inset
 
