@@ -634,5 +634,409 @@ q6.m
 פיקסלים(.
 \end_layout
 
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\end_layout
+
+\begin_layout Standard
+נתחיל בחישוב עבור המעוין השמן.
+\end_layout
+
+\begin_layout Standard
+נתונים הקוים 
+\begin_inset Formula $l_{1}$
+\end_inset
+
+ ו-
+\begin_inset Formula $l_{2}$
+\end_inset
+
+ עם הזויות 
+\begin_inset Formula $\theta_{1}=0^{\circ}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\theta_{2}=45^{\circ}$
+\end_inset
+
+ בהתאמה.
+\end_layout
+
+\begin_layout Standard
+המהירות של שניהם זהה - 
+\begin_inset Formula $v_{1}=v_{2}=\left(1,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קווי האילוץ הם 
+\begin_inset Formula $y_{1}=0$
+\end_inset
+
+, 
+\begin_inset Formula $y_{2}=x-1$
+\end_inset
+
+, ומכאן שהחיתוך בין קווי האילוץ מתקבל בנקודה 
+\begin_inset Formula $IOC=\left(1,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכיוון ש-
+\begin_inset Formula $l_{1}$
+\end_inset
+
+ מקביל ל-
+\begin_inset Formula $v_{1}$
+\end_inset
+
+, המהירות הניצבת המתאימה היא 
+\begin_inset Formula $v_{1}^{\perp}=\left(0,0\right)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $l_{2}$
+\end_inset
+
+, נסמן ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ את הזוית בין 
+\begin_inset Formula $v_{2}$
+\end_inset
+
+ לבין 
+\begin_inset Formula $v_{2}^{\perp}$
+\end_inset
+
+.
+ נשים לב שמתקיים 
+\begin_inset Formula $\alpha=-\theta_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת מתקיים 
+\begin_inset Formula $\left|v_{2}^{\perp}\right|=\left|v_{2}\right|\cos\alpha=\frac{1}{\sqrt{2}}$
+\end_inset
+
+, ומכאן שמתקיים 
+\begin_inset Formula $v_{2}^{\perp}=\left(\frac{1}{\sqrt{2}}\cos\alpha,\frac{1}{\sqrt{2}}\sin\alpha\right)=\left(\frac{1}{2},-\frac{1}{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נחשב את ה-
+\lang english
+VA
+\lang hebrew
+: 
+\begin_inset Formula 
+\[
+VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2},\frac{v_{1_{y}}^{\perp}+v_{2_{y}}^{\perp}}{2}\right)=\left(\frac{1}{4},-\frac{1}{4}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q7_fat.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נבצע את החישוב עבור המעוין הרזה.
+\end_layout
+
+\begin_layout Standard
+נתונים הקוים 
+\begin_inset Formula $l_{1}$
+\end_inset
+
+ ו-
+\begin_inset Formula $l_{2}$
+\end_inset
+
+ עם הזויות 
+\begin_inset Formula $\theta_{1}=30^{\circ}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\theta_{2}=45^{\circ}$
+\end_inset
+
+ בהתאמה.
+\end_layout
+
+\begin_layout Standard
+המהירות של שניהם זהה - 
+\begin_inset Formula $v_{1}=v_{2}=\left(1,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קווי האילוץ הם 
+\begin_inset Formula $y_{1}=\frac{1}{\sqrt{3}}x-\frac{1}{\sqrt{3}}$
+\end_inset
+
+, 
+\begin_inset Formula $y_{2}=x-1$
+\end_inset
+
+, ומכאן שהחיתוך בין קווי האילוץ מתקבל בנקודה 
+\begin_inset Formula $IOC=\left(1,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור
+\begin_inset Formula $l_{1}$
+\end_inset
+
+, נסמן ב-
+\begin_inset Formula $\beta$
+\end_inset
+
+ את הזוית בין 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ לבין 
+\begin_inset Formula $v_{1}^{\perp}$
+\end_inset
+
+.
+ נשים לב שמתקיים 
+\begin_inset Formula $\beta=\theta_{1}-90^{\circ}=-60^{\circ}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת מתקיים 
+\begin_inset Formula $\left|v_{1}^{\perp}\right|=\left|v_{1}\right|\cos\beta=\frac{1}{2}$
+\end_inset
+
+, ומכאן שמתקיים 
+\begin_inset Formula $v_{1}^{\perp}=\left(\frac{1}{2}\cos\beta,\frac{1}{2}\sin\beta\right)=\left(\frac{1}{4},\frac{-\sqrt{3}}{4}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $l_{2}$
+\end_inset
+
+, החישוב זהה לחישוב עבור המעוין השמן שביצענו קודם, כלומר 
+\begin_inset Formula $v_{2}^{\perp}=\left(\frac{1}{2},-\frac{1}{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נחשב את ה-
+\lang english
+VA
+\lang hebrew
+: 
+\begin_inset Formula 
+\[
+VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2},\frac{v_{1_{y}}^{\perp}+v_{2_{y}}^{\perp}}{2}\right)=\left(\frac{\frac{1}{4}+\frac{1}{2}}{2},\frac{\frac{-\sqrt{3}}{4}-\frac{1}{2}}{2}\right)=\left(\frac{3}{8},\frac{-2-\sqrt{3}}{8}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q7_thin.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נצרף את הגרפים המציגים את המהירות הנמדדת כפונקציה של הקונטרסט ומספר
+ האיטרציות, עבור המעוין השמן והמעוין הרזה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q7_fat_graph.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q7_thin_graph.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות בשני הגרפים, כאשר הקונטרסט נמוך מאד, והמעוינים כמעט מתמזגים
+ עם הרקע, האלגוריתם מזהה מהירות אלכסונית )בכיוון ימין למטה, שהוא כיוון ה-
+\lang english
+VA
+\lang hebrew
+(.
+ ככל שמגדילים את הקונטרסט, המעוין הולך ונהיה מופרד מהרקע, והאלגוריתם מזהה
+ מהירות אופקית יותר, ובשלב מסוים מגיע לרוויה ומזהה מהירות אופקית לחלוטין
+ )בכיוון ה-
+\lang english
+(IOC
+\lang hebrew
+.
+ כאשר הקונטרסט הוא 
+\begin_inset Formula $0$
+\end_inset
+
+, כלומר, אין הפרדה של המעוין מן הרקע כלל, האלגוריתם מזהה )כצפוי( מהירות
+ אפס.
+ כמו כן, ככל שמספר האיטרציות עולה, כך הרוויה מגיעה מהר יותר.
+\end_layout
+
+\begin_layout Standard
+אם נשווה בין שני הגרפים, נראה שהרוויה מגיעה מהר יותר במעוין השמן.
+ כלומר, עבור המעוין הרזה דרוש לאלגוריתם קונטרסט גבוה יותר בכדי לזהות מהירות
+ אופקית.
+ במילים אחרות, ככל שהמעוין שמן יותר, כך יש התאמה גבוהה יותר של המהירות ל-
+\lang english
+IOC
+\lang hebrew
+.
+ הדבר תואם את הנאמר בשיעור, לגבי העיוות המתקבל עבור מעוין רזה.
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\end_layout
+
+\begin_layout Standard
+	
+\end_layout
+
 \end_body
 \end_document
