@@ -1078,10 +1078,11 @@ Deriv2Laplace.m
 q4.m
 \lang hebrew
 , בה אנו מראים שניתן לקחת סף ב-
-\begin_inset Formula $T=16$
+\begin_inset Formula $T=30$
 \end_inset
 
-, ואז אכן רוב הקצוות בריבוע הימני נעלמים, בעוד הריבוע השמאלי נשאר שלם.
+, ואז הריבוע הימני נעלם לחלוטין בעוד שעדיין ניתן לראות את הפינות של הריבוע
+ השמאלי.
 \end_layout
 
 \begin_layout Section
@@ -1111,6 +1112,41 @@ q4.m
 \noun default
 \color inherit
 5
+\end_layout
+
+\begin_layout Standard
+מצורפת הפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q5.m
+\lang hebrew
+, בה אנו מראים שניתן לקחת סף ב-
+\begin_inset Formula $T=7$
+\end_inset
+
+, ואז ניתן לראות רק את הפיקסלים שנמצאים על הצלב.
 \end_layout
 
 \begin_layout Section
