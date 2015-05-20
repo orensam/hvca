@@ -1081,8 +1081,8 @@ q4.m
 \begin_inset Formula $T=30$
 \end_inset
 
-, ואז הריבוע הימני נעלם לחלוטין בעוד שעדיין ניתן לראות את הפינות של הריבוע
- השמאלי.
+ בלפלסיאן, ואז הריבוע הימני נעלם לחלוטין בעוד שעדיין ניתן לראות את הפינות
+ של הריבוע השמאלי.
 \end_layout
 
 \begin_layout Section
@@ -1146,7 +1146,7 @@ q5.m
 \begin_inset Formula $T=7$
 \end_inset
 
-, ואז ניתן לראות רק את הפיקסלים שנמצאים על הצלב.
+ בלפלסיאן, ואז ניתן לראות רק את הפיקסלים שנמצאים על הצלב.
 \end_layout
 
 \begin_layout Section
@@ -1176,6 +1176,58 @@ q5.m
 \noun default
 \color inherit
 6
+\end_layout
+
+\begin_layout Standard
+מצורפת הפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q6.m
+\lang hebrew
+, בה אנו לוקחים סף ב-
+\begin_inset Formula $T=16$
+\end_inset
+
+ בלפלסיאן.
+ 
+\end_layout
+
+\begin_layout Standard
+כאשר מביטים בתוצאה, ניתן לראות שהקו האנכי המפריד בין שני המלבנים נעלם -
+ בעוד שהקוים המעוגלים שעוקבים אחרי שני חצאי הטבעת ואחרי שני חצאי העיגול
+ המתאימים להם, נשארים שלמים.
+\end_layout
+
+\begin_layout Standard
+האפקט הויזואלי שנוצר הוא שחצי הטבעת בצד שמאל נתפס כבהיר יותר מזה הימני.
+ בעזרת הלפלסיאן ניתן להסביר את האפקט.
+ במקום לשייך כל חצי טבעת למלבן שעליו הוא נמצא, העובדה שהקצוות של חצאי הטבעת
+ חזקים יותר מהקו האנכי משנה את התפיסה שלנו.
+ עובדה זו יוצרת המשכיות של כל חצי טבעת עם המלבן המתאים לו - חצי הטבעת הימני
+ עם המלבן השמאלי הכהה, וחצי הטבעת השמאלי עם המלבן הימני הבהיר.
+ 
 \end_layout
 
 \begin_layout Section
