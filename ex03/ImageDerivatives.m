@@ -7,8 +7,8 @@ function [Ix, Iy] = ImageDerivatives(I)
     end
 
     % The Kernels
-    Kx = .5 .* [1 -1];
-    Ky = .5 .* [-1; 1];    
+    Kx = [0.5 -0.5];
+    Ky = [-0.5; 0.5];    
 
     % Compute x derivation
     Ix = conv2(I, Kx);
