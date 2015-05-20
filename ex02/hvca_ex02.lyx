@@ -240,7 +240,14 @@ q5.m
 \uwave default
 \noun default
 \color inherit
-ובו הקוד הרלוונטי לשאלה.
+ובו קוד המטלאב הרלוונטי לשאלה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -353,10 +360,6 @@ v_{tree}=\left(-1.5723,0.0229\right)
 
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
 היחס המתקבל בין הרכיבים האופקיים של מהירות הפרחים והעץ הוא: 
 \begin_inset Formula 
 \[
@@ -373,6 +376,13 @@ v_{tree}=\left(-1.5723,0.0229\right)
  נשים לב שהמהירות האנכית )בין אם בתמונה כולה ובין אם בפרחים ובעץ( זניחה
  לעומת המהירות האופקית, ולכן האפקט האופטי העיקרי מתרחש בציר האופקי.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -455,11 +465,18 @@ q6.m
 \uwave default
 \noun default
 \color inherit
-ובו הקוד הרלוונטי לשאלה.
+ובו קוד המטלאב הרלוונטי לשאלה.
 \end_layout
 
 \begin_layout Standard
-הגרף המתאר את טעות ההערכה כתלות במהירות האופקית, עבור 
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתחיל בהצגת הגרף המתאר את טעות ההערכה כתלות במהירות האופקית, עבור 
 \begin_inset Formula $\sigma=1$
 \end_inset
 
@@ -467,15 +484,29 @@ q6.m
 \begin_inset Formula $\sigma=10$
 \end_inset
 
- )באדום(.
+ )באדום(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename q6_graph.png
-	scale 50
+	scale 60
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
 \end_inset
 
 
@@ -634,6 +665,13 @@ q6.m
 פיקסלים(.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -664,7 +702,145 @@ q6.m
 \end_layout
 
 \begin_layout Standard
-נתחיל בחישוב עבור המעוין השמן.
+מצורף הקובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q7.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ובו קוד המטלאב הרלוונטי לשאלה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+חישוב
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+IOC
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+VA
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור המעוין השמן
 \end_layout
 
 \begin_layout Standard
@@ -781,14 +957,7 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename q7_fat.png
-	scale 30
-
-\end_inset
-
-
+ובאופו גרפי:
 \end_layout
 
 \begin_layout Standard
@@ -799,7 +968,102 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
-כעת נבצע את החישוב עבור המעוין הרזה.
+\align center
+\begin_inset Graphics
+	filename q7_fat.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+חישוב
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+IOC
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+VA
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור המעוין הרזה
 \end_layout
 
 \begin_layout Standard
@@ -912,14 +1176,36 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
+ובאופן גרפי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename q7_thin.png
-	scale 30
+	scale 60
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+חישוב המהירות הנמדדת כתלות בקונטרסט ובמספר האיטרציות
 \end_layout
 
 \begin_layout Standard
@@ -928,17 +1214,11 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $ $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 \align center
 \begin_inset Graphics
 	filename q7_fat_graph.png
-	scale 50
+	scale 60
 
 \end_inset
 
@@ -946,17 +1226,11 @@ VA=\left(VA_{x},VA_{y}\right)=\left(\frac{v_{1_{x}}^{\perp}+v_{2_{x}}^{\perp}}{2
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $ $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 \align center
 \begin_inset Graphics
 	filename q7_thin_graph.png
-	scale 50
+	scale 60
 
 \end_inset
 
@@ -1005,6 +1279,13 @@ IOC
  הדבר תואם את הנאמר בשיעור, לגבי העיוות המתקבל עבור מעוין רזה.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1035,7 +1316,255 @@ IOC
 \end_layout
 
 \begin_layout Standard
-	
+נתון מ"מ:
+\begin_inset Formula 
+\[
+x\sim N\left(\mu_{p},\sigma_{p}^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומדידה רועשת שלו:
+\begin_inset Formula 
+\[
+y|x\sim\left(N,\sigma_{y}^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עלינו להראות כי הערכת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ה-
+\lang english
+MAP
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור 
+\begin_inset Formula $x$
+\end_inset
+
+ היא:
+\begin_inset Formula 
+\[
+\widehat{x}=\underset{x}{\arg\max}p\left(x|y\right)=\frac{\frac{1}{\sigma_{p}^{2}}\mu_{p}+\frac{1}{\sigma_{y}^{2}}y}{\frac{1}{\sigma_{p}^{2}}+\frac{1}{\sigma_{y}^{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תחילה נביט בביטוי 
+\begin_inset Formula $p\left(x|y\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\underset{x}{\arg\max}\left[p\left(x|y\right)\right] & \overset{^{1}}{=} & \underset{x}{\arg\max}\left[\frac{p\left(x\right)p\left(y|x\right)}{p\left(y\right)}\right]\\
+ & \overset{^{2}}{=} & \underset{x}{\arg\max}\left[p\left(x\right)p\left(y|x\right)\right]\\
+ & \overset{^{3}}{=} & \underset{x}{\arg\max}\left[\frac{1}{\sqrt{2\pi\sigma_{p}^{2}}}\exp\left(\frac{-\left(x-\mu_{p}\right)^{2}}{2\sigma_{p}^{2}}\right)\cdot\frac{1}{\sqrt{2\pi\sigma_{y}^{2}}}\exp\left(\frac{-\left(y-x\right)^{2}}{2\sigma_{y}^{2}}\right)\right]\\
+ & = & \underset{x}{\arg\max}\left[\frac{1}{2\pi\sigma_{p}\sigma_{y}}\exp\left(\frac{-\left(x-\mu_{p}\right)^{2}}{2\sigma_{p}^{2}}+\frac{-\left(y-x\right)^{2}}{2\sigma_{y}^{2}}\right)\right]\\
+ & \overset{^{4}}{=} & \underset{x}{\arg\max}\left[\exp\left(\frac{-\left(x-\mu_{p}\right)^{2}}{2\sigma_{p}^{2}}+\frac{-\left(y-x\right)^{2}}{2\sigma_{y}^{2}}\right)\right]\\
+ & \overset{^{5}}{=} & \underset{x}{\arg\max}\left[\frac{-\left(x-\mu_{p}\right)^{2}}{2\sigma_{p}^{2}}+\frac{-\left(y-x\right)^{2}}{2\sigma_{y}^{2}}\right]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר:
+\end_layout
+
+\begin_layout Enumerate
+חוק בייס.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $p\left(y\right)\geq0$
+\end_inset
+
+, ולכן כפל ב-
+\begin_inset Formula $p\left(y\right)$
+\end_inset
+
+ לא ישנה את ערך ה-
+\begin_inset Formula $x$
+\end_inset
+
+ שממקסם את הביטוי.
+\end_layout
+
+\begin_layout Enumerate
+מהגדרת התפלגות נורמלית.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $2\pi\sigma_{p}\sigma_{y}>0$
+\end_inset
+
+, ולכן כפל בערך זה לא ישנה את ערך ה-
+\begin_inset Formula $x$
+\end_inset
+
+ שממקסם את הביטוי.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\exp$
+\end_inset
+
+ פונקציה מונטונית עולה, ולכן מספיק למקסם את הארגומנט שלה כדי למקסם את הביטוי
+ כולו.
+\end_layout
+
+\begin_layout Standard
+כדי למצוא את 
+\begin_inset Formula $x$
+\end_inset
+
+ הממקסם את הביטוי, נגזור אותו לפי 
+\begin_inset Formula $x$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\partial}{\partial x}\left[\frac{-\left(x-\mu_{p}\right)^{2}}{2\sigma_{p}^{2}}+\frac{-\left(y-x\right)^{2}}{2\sigma_{y}^{2}}\right] & = & \frac{-2\left(x-\mu_{p}\right)}{2\sigma_{p}^{2}}+\frac{2\left(y-x\right)}{2\sigma_{y}^{2}}\\
+ & = & \frac{y-x}{\sigma_{y}^{2}}-\frac{x-\mu_{p}}{\sigma_{p}^{2}}\\
+ & \overset{*}{=} & \frac{y}{\sigma_{y}^{2}}+\frac{\mu_{p}}{\sigma_{p}^{2}}-x\left(\frac{1}{\sigma_{y}^{2}}+\frac{1}{\sigma_{p}^{2}}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נשווה את 
+\begin_inset Formula $*$
+\end_inset
+
+ לאפס ונקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=\frac{\frac{1}{\sigma_{p}^{2}}\mu_{p}+\frac{1}{\sigma_{y}^{2}}y}{\frac{1}{\sigma_{p}^{2}}+\frac{1}{\sigma_{y}^{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוודא שאכן מדובר בנקודת מקסימום ע"י שימוש בנגזרת שניה - נגזור את 
+\begin_inset Formula $*$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial}{\partial x}\left[\frac{y}{\sigma_{y}^{2}}+\frac{\mu_{p}}{\sigma_{p}^{2}}-x\left(\frac{1}{\sigma_{y}^{2}}+\frac{1}{\sigma_{p}^{2}}\right)\right]=-\left(\frac{1}{\sigma_{y}^{2}}+\frac{1}{\sigma_{p}^{2}}\right)<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר אי השוויון נובע מכך ש-
+\begin_inset Formula $\sigma_{y}^{2},\sigma_{p}^{2}>0$
+\end_inset
+
+.
+ מכיוון שהנגזרת השניה שלילית, אכן מדובר בנקודת מקסימום.
+\end_layout
+
+\begin_layout Standard
+כלומר, קיבלנו:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\widehat{x}=\underset{x}{\arg\max}p\left(x|y\right)=\frac{\frac{1}{\sigma_{p}^{2}}\mu_{p}+\frac{1}{\sigma_{y}^{2}}y}{\frac{1}{\sigma_{p}^{2}}+\frac{1}{\sigma_{y}^{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
 \end_layout
 
 \end_body

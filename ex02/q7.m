@@ -1,10 +1,11 @@
 function [] = q7()
+%% ex2 q7: Create veclocity vs contrast vs # iterations graph for thin and fat rhombi.
     drawRombusPlot(1);
     drawRombusPlot(0);
 end
 
 function [] = drawRombusPlot(fatFlag)
-%% Creates the graph of 
+%% Creates the graph of veclocity vs contrast vs # iterations for specified rhombus.
 
     lambda = 0.01;
     conts = 0:0.02:1;
