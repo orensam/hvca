@@ -1,0 +1,1226 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 1.5cm
+\secnumdepth -2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ראיה אנושית: גישה חישובית - תרגיל מס'
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Author
+דניאל הדר )ת"ז
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+200380244
+\numeric off
+(, אורן סמואל )ת"ז
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+200170694
+\numeric off
+(
+\end_layout
+
+\begin_layout Part
+חלק תאורטי
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה:
+\series default
+\bar default
+ קונבולוציה מקיימת אסוציאטיביות.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $m,n\in\mathbb{Z}$
+\end_inset
+
+ כלשהם.
+\end_layout
+
+\begin_layout Standard
+נראה שמתקיים 
+\begin_inset Formula $\left(X*Y\right)*Z\left[m,n\right]=X*\left(Y*Z\right)\left[m,n\right]$
+\end_inset
+
+, ומכך נסיק שמתקיימת אסוציאטיביות, כלומר 
+\begin_inset Formula $\left(X*Y\right)*Z=X*\left(Y*Z\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים:
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(X*Y\right)*Z\left[m,n\right] & \overset{^{1}}{=} & \sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}\left(\sum_{k=-\infty}^{\infty}\sum_{l=-\infty}^{\infty}X\left[k,l\right]Y\left[i-k,j-l\right]\right)Z\left[m-i,n-j\right]\\
+ & \overset{^{2}}{=} & \sum_{k=-\infty}^{\infty}\sum_{l=-\infty}^{\infty}\sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}X\left[k,l\right]Y\left[i-k,j-l\right]Z\left[m-i,n-j\right]\\
+ & \overset{^{2}}{=} & \sum_{k=-\infty}^{\infty}\sum_{l=-\infty}^{\infty}X\left[k,l\right]\sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}Y\left[i-k,j-l\right]Z\left[m-i,n-j\right]
+\end{eqnarray*}
+
+\end_inset
+
+כאשר )
+\numeric on
+1
+\numeric off
+( ישיר מהגדרת קונבולוציה, ו-)
+\numeric on
+2
+\numeric off
+( הוא שינוי סדר הסכימה שמתאפשר מדיסטריביוטיביות וקומוטטיביות של כפל רגיל.
+\end_layout
+
+\begin_layout Standard
+כעת, נבצע החלפת משתנים, ונסמן 
+\begin_inset Formula $a=i-k$
+\end_inset
+
+ וכן 
+\begin_inset Formula $b=j-l$
+\end_inset
+
+.
+ נשים לב שבהינתן 
+\begin_inset Formula $k,l$
+\end_inset
+
+ קבועים )כלומר, שנקבעים ע"י הסכום החיצוני(, בגבולות 
+\begin_inset Formula $\pm\infty$
+\end_inset
+
+, 
+\begin_inset Formula $a$
+\end_inset
+
+ מתנהג כמו 
+\begin_inset Formula $i$
+\end_inset
+
+ ו-
+\begin_inset Formula $b$
+\end_inset
+
+ מתנהג כמו 
+\begin_inset Formula $j$
+\end_inset
+
+ )כלומר, אם 
+\begin_inset Formula $i\rightarrow\infty$
+\end_inset
+
+ אז 
+\begin_inset Formula $a\rightarrow\infty$
+\end_inset
+
+ וכנ"ל עבור 
+\begin_inset Formula $j$
+\end_inset
+
+ ו-
+\begin_inset Formula $b$
+\end_inset
+
+, בהתאמה(.
+\end_layout
+
+\begin_layout Standard
+לאחר החלפת משתנים זו, נשים לב שמתקיים גם 
+\begin_inset Formula $m-i=m-a-k$
+\end_inset
+
+ וכן 
+\begin_inset Formula $n-j=n-b-l$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת ניתן לכתוב:
+\begin_inset Formula 
+\begin{eqnarray*}
+\dots & = & \sum_{k=-\infty}^{\infty}\sum_{l=-\infty}^{\infty}X\left[k,l\right]\sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}Y\left[a,b\right]Z\left[\left(m-k\right)-a,\left(n-b\right)-l\right]\\
+ & = & \sum_{k=-\infty}^{\infty}\sum_{l=-\infty}^{\infty}X\left[k,l\right]\left(Y*Z\right)\left[m-k,n-l\right]\\
+ & = & X*\left(Y*Z\right)\left[m,n\right]
+\end{eqnarray*}
+
+\end_inset
+
+כאשר המעבר השני והשלישי נובעים ישירות מהגדרת קונבולוציה.
+\end_layout
+
+\begin_layout Standard
+מכאן שמתקיימת אסוציאטיביות בקונבולוציה, כנדרש.
+ 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה:
+\series default
+\bar default
+ קונבולוציה מקיימת לינאריות.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $a,b$
+\end_inset
+
+ סקלרים, ויהיו יהיו 
+\begin_inset Formula $m,n\in\mathbb{Z}$
+\end_inset
+
+ כלשהם.
+ 
+\end_layout
+
+\begin_layout Standard
+נראה שמתקיים 
+\begin_inset Formula $\left(X*\left(aY+bZ\right)\right)\left[m,n\right]=\left(aX*Y+bX*Z\right)\left[m,n\right]$
+\end_inset
+
+ ומכך נסיק שמתקיימת לינאריות, כלומר 
+\begin_inset Formula $X*\left(aY+bZ\right)=aX*Y+bX*Z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים:
+\begin_inset Formula 
+\begin{eqnarray*}
+\left[X*\left(aY+bZ\right)\right]\left[m,n\right] & \overset{^{1}}{=} & \sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}X\left[i,j\right]\left(aY+bZ\right)\left[m-i,n-j\right]\\
+ & \overset{^{2}}{=} & \sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}X\left[i,j\right]\left(aY\left[m-i,n-j\right]+bZ\left[m-i,n-j\right]\right)\\
+ & \overset{^{3}}{=} & a\sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}X\left[i,j\right]Y\left[m-i,n-j\right]+b\sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}X\left[i,j\right]Z\left[m-i,n-j\right]\\
+ & \overset{^{1}}{=} & aX*Y\left[m,n\right]+bX*Z\left[m,n\right]\\
+ & \overset{^{2}}{=} & \left(aX*Y+bX*Z\right)\left[m,n\right]
+\end{eqnarray*}
+
+\end_inset
+
+כאשר )
+\numeric on
+1
+\numeric off
+( נובע מהגדרת קונבולוציה, )
+\numeric on
+2
+\numeric off
+( מהגדרת חיבור מטריצות, ו-)
+\numeric on
+3
+\numeric off
+( מדיסטריביוטיביות וקומוטטיביות של כפל רגיל.
+\end_layout
+
+\begin_layout Standard
+מכאן שמתקיימת לינאריות בקונבולוציה, כנדרש.
+ 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+תהא תמונה 
+\begin_inset Formula $I$
+\end_inset
+
+ ויהיו 
+\begin_inset Formula $K_{x},K_{y}$
+\end_inset
+
+ קרנלי גזירה.
+ נגדיר את הלפלסיאן של 
+\begin_inset Formula $I$
+\end_inset
+
+ ע"י:
+\begin_inset Formula 
+\[
+\nabla^{2}I=\left(I*K_{x}\right)*K_{x}+\left(I*K_{y}\right)*K_{y}
+\]
+
+\end_inset
+
+
+\series bold
+\bar under
+טענה:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $K_{x}=\frac{1}{2}\left(1,-1\right)$
+\end_inset
+
+ ו- 
+\begin_inset Formula $K_{y}=\frac{1}{2}\left(\begin{matrix}1\\
+-1
+\end{matrix}\right)$
+\end_inset
+
+, אז 
+\begin_inset Formula $\nabla^{2}I=I*K_{l}$
+\end_inset
+
+, כאשר 
+\begin_inset Formula $K_{l}=\frac{1}{4}\left(\begin{matrix} & 1\\
+1 & -4 & 1\\
+ & 1
+\end{matrix}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+תחילה, נחשב לפי הגדרת הקונבולוציה:
+\begin_inset Formula 
+\[
+K_{x}*K_{x}=\frac{1}{2}\left(1,-1\right)*\frac{1}{2}\left(1,-1\right)=\frac{1}{4}\left(1,-2,1\right)
+\]
+
+\end_inset
+
+וכן:
+\begin_inset Formula 
+\[
+K_{y}*K_{y}=\frac{1}{2}\left(\begin{matrix}1\\
+-1
+\end{matrix}\right)*\frac{1}{2}\left(\begin{matrix}1\\
+-1
+\end{matrix}\right)=\frac{1}{4}\left(\begin{matrix}1\\
+-2\\
+1
+\end{matrix}\right)
+\]
+
+\end_inset
+
+כעת, מתקיים:
+\begin_inset Formula 
+\begin{eqnarray*}
+\nabla^{2}I & = & \left(I*K_{x}\right)*K_{x}+\left(I*K_{y}\right)*K_{y}\\
+ & \overset{^{1}}{=} & I*\left(K_{x}*K_{x}\right)+I*\left(K_{y}*K_{y}\right)\\
+ & \overset{^{2}}{=} & I*\left(K_{x}*K_{x}+K_{y}*K_{y}\right)\\
+ & \overset{^{3}}{=} & I*\left(\frac{1}{4}\left(1,-2,1\right)+\frac{1}{4}\left(\begin{matrix}1\\
+-2\\
+1
+\end{matrix}\right)\right)\\
+ & = & I*\frac{1}{4}\left(\begin{matrix} & 1\\
+1 & -4 & 1\\
+ & 1
+\end{matrix}\right)=I*K_{l}
+\end{eqnarray*}
+
+\end_inset
+
+ כאשר )
+\numeric on
+1
+\numeric off
+( נובע מאסוציאטיביות הקונבולוציה שהוכחנו בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, )
+\numeric on
+2
+\numeric off
+( נובע מלינאריות הקונבולוציה שהוכחנו בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, ו-)
+\numeric on
+3
+\numeric off
+( מהחישוב המקדים שביצענו.
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה:
+\series default
+\bar default
+ יהי קרנל 
+\begin_inset Formula $K_{\alpha}$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $K_{l}*K_{\alpha}=\bar{\delta}$
+\end_inset
+
+ כאשר:
+\begin_inset Formula 
+\[
+\bar{\delta}\left[i,j\right]=\begin{cases}
+1 & \left(i,j\right)=\left(0,0\right)\\
+0 & otherwise
+\end{cases}
+\]
+
+\end_inset
+
+אזי 
+\begin_inset Formula $\left(\nabla^{2}I\right)*K_{\alpha}=I$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $m,n\in\mathbb{Z}$
+\end_inset
+
+ כלשהם.
+\end_layout
+
+\begin_layout Standard
+נראה שמתקיים 
+\begin_inset Formula $\left(\left(\nabla^{2}I\right)*K_{\alpha}\right)\left[m,n\right]=I\left[m,n\right]$
+\end_inset
+
+ ומכך נסיק את המבוקש, כלומר 
+\begin_inset Formula $\left(\nabla^{2}I\right)*K_{\alpha}=I$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים:
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\left(\nabla^{2}I\right)*K_{\alpha}\right)\left[m,n\right] & \overset{^{1}}{=} & \left(\left(I*K_{l}\right)*K_{\alpha}\right)\left[m,n\right]\\
+ & \overset{^{2}}{=} & \left(I*\left(K_{l}*K_{\alpha}\right)\right)\left[m,n\right]\\
+ & \overset{^{3}}{=} & \left(I*\bar{\delta}\right)\left[m,n\right]\\
+ & \overset{^{4}}{=} & \sum_{i=-\infty}^{\infty}\sum_{j=-\infty}^{\infty}I\left[i,j\right]\bar{\delta}\left[m-i,n-j\right]\\
+ & = & \sum_{i=-\infty,\ i\neq m}^{\infty}\sum_{j=-\infty,\ j\neq n}^{\infty}I\left[i,j\right]\bar{\delta}\left[m-i,n-j\right]+I\left[m,n\right]\bar{\delta}\left[0,0\right]\\
+ & \overset{^{5}}{=} & \sum_{i=-\infty,\ i\neq m}^{\infty}\sum_{j=-\infty,\ j\neq n}^{\infty}I\left[i,j\right]\cdot0+I\left[m,n\right]\cdot1\\
+ & = & I\left[m,n\right]
+\end{eqnarray*}
+
+\end_inset
+
+כאשר:
+\end_layout
+
+\begin_layout Enumerate
+משאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, מתקיים 
+\begin_inset Formula $\nabla^{2}I=I*K_{l}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+משאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, מתקיימת אסוציאטיביות בקונבולוציה.
+\end_layout
+
+\begin_layout Enumerate
+נתון שמתקיים 
+\begin_inset Formula $K_{l}*K_{\alpha}=\bar{\delta}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+מהגדרת קונבולוציה.
+\end_layout
+
+\begin_layout Enumerate
+מהגדרת 
+\begin_inset Formula $\bar{\delta}\left[i,j\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Part
+חלק תכנותי
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+11
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+12
+\end_layout
+
+\begin_layout Section
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+13
+\end_layout
+
+\end_body
+\end_document
