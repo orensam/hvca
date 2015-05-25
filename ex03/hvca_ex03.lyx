@@ -1050,6 +1050,10 @@ Deriv2Laplace.m
 \end_layout
 
 \begin_layout Standard
+בתמונה הנתונה, הריבוע השמאלי נראה בהיר יותר.
+\end_layout
+
+\begin_layout Standard
 מצורפת הפונקציה
 \family roman
 \series medium
@@ -1078,11 +1082,22 @@ Deriv2Laplace.m
 q4.m
 \lang hebrew
 , בה אנו מראים שניתן לקחת סף ב-
-\begin_inset Formula $T=30$
+\begin_inset Formula $T=10$
 \end_inset
 
- בלפלסיאן, ואז הריבוע הימני נעלם לחלוטין בעוד שעדיין ניתן לראות את הפינות
- של הריבוע השמאלי.
+ בלפלסיאן, ואז הריבוע הימני נעלם לחלוטין בעוד שעדיין ניתן לראות את הריבוע
+ השמאלי:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q4.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1146,7 +1161,18 @@ q5.m
 \begin_inset Formula $T=7$
 \end_inset
 
- בלפלסיאן, ואז ניתן לראות רק את הפיקסלים שנמצאים על הצלב.
+ בלפלסיאן, ואז ניתן לראות רק את הפיקסלים שנמצאים על הצלב:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q5.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1179,6 +1205,38 @@ q5.m
 \end_layout
 
 \begin_layout Standard
+בתמונה הנתונה, חצי הטבעת השמאלי נראה בהיר יותר.
+ בניגוד לשאלות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4-5
+\numeric off
+, כאן לא ניתן להסביר את האשליה באופן פשוט ע"י הלפלסיאן.
+\end_layout
+
+\begin_layout Standard
 מצורפת הפונקציה
 \family roman
 \series medium
@@ -1206,28 +1264,31 @@ q5.m
 \lang english
 q6.m
 \lang hebrew
-, בה אנו לוקחים סף ב-
-\begin_inset Formula $T=16$
+, בה אנו לוקחים שלושה ספים, ב-
+\begin_inset Formula $T=[10,15,20]$
 \end_inset
 
- בלפלסיאן.
- 
+ בלפלסיאן - ניתן לראות שכאשר מגדילים את הסף, הגבולות שני חצאי הטבעת דועכים
+ באותו קצב, ולא נבדלים זה מזה מבחינת הלפלסיאן:
 \end_layout
 
 \begin_layout Standard
-כאשר מביטים בתוצאה, ניתן לראות שהקו האנכי המפריד בין שני המלבנים נעלם -
- בעוד שהקוים המעוגלים שעוקבים אחרי שני חצאי הטבעת ואחרי שני חצאי העיגול
- המתאימים להם, נשארים שלמים.
+\align center
+ׁ
+\begin_inset Graphics
+	filename q6.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-האפקט הויזואלי שנוצר הוא שחצי הטבעת בצד שמאל נתפס כבהיר יותר מזה הימני.
- בעזרת הלפלסיאן ניתן להסביר את האפקט.
- במקום לשייך כל חצי טבעת למלבן שעליו הוא נמצא, העובדה שהקצוות של חצאי הטבעת
- חזקים יותר מהקו האנכי משנה את התפיסה שלנו.
- עובדה זו יוצרת המשכיות של כל חצי טבעת עם המלבן המתאים לו - חצי הטבעת הימני
- עם המלבן השמאלי הכהה, וחצי הטבעת השמאלי עם המלבן הימני הבהיר.
- 
+\begin_inset Formula $ $
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1257,6 +1318,177 @@ q6.m
 \noun default
 \color inherit
 7
+\end_layout
+
+\begin_layout Standard
+את האשליות בשאלות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4-5
+\numeric off
+ ניתן להסביר באמצעות לפלסיאן: אם המוח אכן משתמש בלפלסיאן, בפיקסלים בהם הלפלסיאן
+ גדול לעומת שאר התמונה )כלומר, בקצוות הריבוע השמאלי, או בנקודות על הצלב(,
+ המוח מזהה שינוי חד יותר.
+ כתוצאה מכך, מתרחש תהליך של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+lateral inhibition
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- ונתרחש אפקט של שינוי הבהירות של הפיקסלם בסביבה המיידית של הפיקסלים הנ"ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+את האשליה בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לא ניתן להסביר רק באמצעות שימוש של המוח בלפלסיאן - כפי שראינו, הגבולות של
+ שני חצאי הטבעת דועכים באותו קצב ביחד עם הגדלת הסף 
+\begin_inset Formula $T$
+\end_inset
+
+, על אף שהחצי השמאלי נתפס כבהיר יותר מזה הימני.
+ 
+\end_layout
+
+\begin_layout Standard
+הסבר אלטרנטיבי: כאשר מביטים בתוצאה, ניתן לראות שהקו האנכי המפריד בין שני
+ המלבנים נעלם - בעוד שהקוים המעוגלים שעוקבים אחרי שני חצאי הטבעת ואחרי שני
+ חצאי העיגול המתאימים להם, נשארים שלמים.
+\end_layout
+
+\begin_layout Standard
+כעת, במקום לשייך כל חצי טבעת למלבן שעליו הוא נמצא, העובדה שהקצוות של חצאי
+ הטבעת חזקים יותר מהקו האנכי משנה את התפיסה שלנו.
+ עובדה זו יוצרת 
+\series bold
+המשכיות
+\series default
+ של כל חצי טבעת עם המלבן המתאים לו - חצי הטבעת הימני עם המלבן השמאלי הכהה,
+ וחצי הטבעת השמאלי עם המלבן הימני הבהיר.
+ כלומר, ייתכן שהלפלסיאן משפיע במידת מה על התפיסה, אך יש כאן השפעה משמעותית
+ של אפקט הגשטאלט - המוח אוהב לחפש צורות שלמות, ולכן מקשר כל חצי טבעת למלבן
+ שממשיך אותו לכדי "שלם".
 \end_layout
 
 \begin_layout Section
