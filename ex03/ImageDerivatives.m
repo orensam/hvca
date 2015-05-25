@@ -11,11 +11,11 @@ function [Ix, Iy] = ImageDerivatives(I)
     Ky = [-0.5; 0.5];    
 
     % Compute x derivation
-    Ix = conv2(I, Kx);
+    Ix = conv2(I, Kx, 'full');
     Ix = putZeros(Ix(:, 1:(end-1)));    
 
     % Compute y derivation
-    Iy = conv2(I, Ky);
+    Iy = conv2(I, Ky, 'full');
     Iy = putZeros(Iy(1:end-1, :));
 
 end
