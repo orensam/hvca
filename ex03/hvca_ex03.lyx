@@ -841,6 +841,13 @@ K_{y}*K_{y}=\frac{1}{2}\left(\begin{matrix}1\\
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 חלק תכנותי
 \end_layout
@@ -1205,6 +1212,37 @@ q5.m
 \end_layout
 
 \begin_layout Standard
+מצורפת הפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q6.m
+\lang hebrew
+, בה אנו מראים לקיחת ספים שונים של התמונה הנתונה.
+\end_layout
+
+\begin_layout Standard
 בתמונה הנתונה, חצי הטבעת השמאלי נראה בהיר יותר.
  בניגוד לשאלות
 \family roman
@@ -1274,18 +1312,10 @@ q6.m
 
 \begin_layout Standard
 \align center
-ׁ
 \begin_inset Graphics
 	filename q6.png
-	scale 60
+	scale 50
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $ $
 \end_inset
 
 
@@ -1520,6 +1550,48 @@ lateral inhibition
 8
 \end_layout
 
+\begin_layout Standard
+מצורפת הפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+do_retinex.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ בה ממומש האלגוריתם.
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1547,6 +1619,193 @@ lateral inhibition
 \noun default
 \color inherit
 9
+\end_layout
+
+\begin_layout Standard
+מצורפת הפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q9.m
+\lang hebrew
+, בה אנו מראים את התוצאה של הפעלת אלגוריתם הרטינקס על כל אחת מהתמונות.
+\end_layout
+
+\begin_layout Standard
+ניתן לראות שעבור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+twoSquares(1)
+\lang hebrew
+, מתקבל אותו רכיב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+reflectance
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לשני הריבועים הלבנים, בעוד שעבור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+twoSquares(2)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתקבל ערך קטן יותר עבור הריבוע התחתון.
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה הראשונה של אלגוריתם הרטינקס, כל שינוי הוא שינוי בגורם יחיד )תאורה
+ או החזרה( אך לא בשניהם.
+ בתמונה השניה ההנחה הזו מופרת - השינוי בתאורה )ה"צל" האפור( והשינוי במקדם
+ ההחזרה )הריבוע הלבן( מופיעים ביחד, ולא ניתן להפריד בצורה ברורה בין הגבולות
+ שלהם.
+ הדבר גורם להפרה של ההנחה ולביצועים פחות טובים של האלגוריתם.
+\end_layout
+
+\begin_layout Standard
+שינוי הסף לא יעזור במקרה הזה, שכן הסף קובע את הנקודה בה מבחינים בין תאורה
+ לבין החזרה - אך מכיוון שבמקרה זה שניהם משתנים יחד, בחירת סף שונה לא תשפיע.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q9.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
