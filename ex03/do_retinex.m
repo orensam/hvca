@@ -19,7 +19,7 @@ function [R, L] = do_retinex(I, T)
     % e-iii
     logRef = conv2(lap, invK, 'same');    
     % f
-    R = e.^logRef;
+    R = exp(logRef);
     L = I./R;
     
 end
