@@ -342,6 +342,13 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1026,7 +1033,7 @@ Deriv2Laplace.m
 \end_layout
 
 \begin_layout Standard
-התבוננו בתמונות וחשנו התרגשות וטלטלה.
+התבוננו בתמונות.
 \end_layout
 
 \begin_layout Section
@@ -1325,6 +1332,13 @@ q6.m
 	filename q6.png
 	scale 35
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
