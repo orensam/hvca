@@ -1,5 +1,6 @@
 function [] = q6()
 %% ex3 q6
+
     I = double(imread('kofka_ring.tif'));
     thres = [10, 15, 20];
     %LaplacianThres1(I, thres);     
@@ -28,4 +29,5 @@ function [] = q6()
      subplot(2,2,4);     
      imshow(Lbin3);
      title('Image Laplacian after thresholding at T=20');
+     
 end
