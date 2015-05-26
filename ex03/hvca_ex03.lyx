@@ -55,7 +55,9 @@
 \shortcut idx
 \color #008000
 \end_index
-\topmargin 1.5cm
+\leftmargin 2cm
+\topmargin 1.2cm
+\bottommargin 2cm
 \secnumdepth -2
 \tocdepth 2
 \paragraph_separation indent
@@ -1107,6 +1109,13 @@ q4.m
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1175,7 +1184,7 @@ q5.m
 \align center
 \begin_inset Graphics
 	filename q5.png
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -1314,7 +1323,7 @@ q6.m
 \align center
 \begin_inset Graphics
 	filename q6.png
-	scale 50
+	scale 35
 
 \end_inset
 
@@ -1808,6 +1817,13 @@ twoSquares(2)
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1835,6 +1851,344 @@ twoSquares(2)
 \noun default
 \color inherit
 10
+\end_layout
+
+\begin_layout Standard
+מצורפת הפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+q10.m
+\lang hebrew
+, בה אנו מראים את התוצאה של הפעלת אלגוריתם הרטינקס על התמונה עם ספים 
+\begin_inset Formula $T=\left[0.02,0.07,0.14\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בתמונה המקורית, עוצמת האפור במשבצות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ זהה, ועומדת על 
+\begin_inset Formula $0.4196$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ברכיב ההחזרה של התמונה, עוצמת האפור במשבת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נמוכה יותר )
+\begin_inset Formula $0.5665$
+\end_inset
+
+( מעוצמת האפור במשבצת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\begin_inset Formula $0.8768$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+הדבר תואם את האשליה שנוצרת בתמונה המקורית, לפיה נדמה שמשבצת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא בהירה יותר.
+\end_layout
+
+\begin_layout Standard
+אזורים בהם האלגוריתם נכשל:
+\end_layout
+
+\begin_layout Enumerate
+המשבצות המוצללות הקרובות לגליל - במשבצות אלה, חל שינוי במקדם ההחזרה וברכיב
+ התאורה במקביל - בסתירה להנחה של אלגוריתם ה-
+\lang english
+retinex
+\lang hebrew
+.
+ האלגוריתם "מניח" שמדובר בשינוי במקדם ההחזרה בלבד, ולכן לא מחלץ אותו כראוי.
+ אם נעלה את הסף, יותר שינויים חדים ייתפסו כשינויים ברכיב התאורה, ואז התופעה
+ השלילית באזור זה תשתפר )כפי שניתן לראות בתמונה המצורפת, עבור 
+\begin_inset Formula $T=0.14$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Enumerate
+הצד הימני של הגליל - באזור זה מתרחשת "מריחה" אפורה על הרקע הלבן )ש"מאחורי"
+ הגליל(.
+ מבחינת האלגוריתם, כנראה שהשינוי ההדרגתי בתאורה לרוחב הגליל ממשיך גם במעבר
+ מהגליל אל הרקע הלבן.
+ הדבר סותר את ההנחה של אלגוריתם ה-
+\lang english
+retinex
+\lang hebrew
+, לפיה שינויים הדרגתיים הם שינויי תאורה )במקרה הזה, השינוי ההדרגתי מהגליל
+ אל הרקע הוא שינוי במקדם ההחזרה, שנתפס ע"י האלגוריתם כשינוי תאורה(.
+ אם נוריד את הסף, נעלה את הסיכוי ששינויים עדינים ייתפסו כשינויים במקדם ההחזרה,
+ ובכך נשפר את ההפרדה של הגליל מהרקע )כפי שניתן לראות בתמונה המצורפת, עבור
+ 
+\begin_inset Formula $T=0.02$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+נשים לב שהעלאת הסף משפרת את הבעיה באזור הראשון אך מחמירה את הבעיה באזור
+ השני, ולהיפך - מפני שהשיפורים שהיינו רוצים לבצע בכל אזור באים אחד על חשבון
+ השני.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q10.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1866,6 +2220,125 @@ twoSquares(2)
 11
 \end_layout
 
+\begin_layout Standard
+בתמונה הנתונה, האלגוריתם לא מצליח להסיר את הצללים בצורה נכונה.
+ ככל שהסף 
+\begin_inset Formula $T$
+\end_inset
+
+ גדל, כך הצל של האצן הולך ונעלם מהרצפה, אך במקביל, הידיים )בעיקר האמה של
+ יד ימין וכף יד שמאל( הולכות ומתמזגות עם הרצפה גם כן.
+ כמו כן, ההשפעה העיקרית על הצל היא על החלק הרחוק יותר שלו )הצל של הראש(,
+ בעוד שהצל הקרוב )של יד ימין( כמעט ואינו מושפע.
+ הסיבה לכישלון האלגוריתם היא העובדה שהצל בתמונה הנתונה יוצר שינויים חדים
+ )בגבול צל-רצפה(, בסתירה להנחה של אלגוריתם ה-
+\lang english
+retinex
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לפיה שינויים חדים נובעים משינוי במקדם ההחזרה.
+ כלומר, האלגוריתם מפרש את הגבולות האלה כשינויים במקדם ההחזרה למרות שהם למעשה
+ שינויי תאורה.
+ כמו כן, ניתן לשים לב שגבולות צל-רצפה וגבולות יד-רצפה דומים מאד זה לזה בתמונה,
+ ולכן הם מתנהגים באופן דומה - הולכים ומיטשטשים ככל שמעלים את הסף.
+\end_layout
+
+\begin_layout Standard
+לגביי "רמזים" נוספים לאלגוריתם, ראשית נציין כי שינוי בסף 
+\begin_inset Formula $T$
+\end_inset
+
+ לא ישפר )או יגרע( את איכות הפעולה - מכיוון שהשינויים במקדם ההחזרה ובמקדם
+ התאורה מתנהגים באופן דומה, שינוי הסף ישפיע לכל היותר על הנקודה שבה הצל
+ והיד יתחילו להתמזג עם הרקע, אך לא יתרום להפרדה נוספת ביניהם.
+ עם זאת, ניתן לחשוב על רמזים שאפשר לתת לאלגוריתם ע"מ לשפר את פעולתו - למשל:
+\end_layout
+
+\begin_layout Enumerate
+סימון האזורים בתמונה בהם מופיע האצן )למשל ע"י העברת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+mask
+\lang hebrew
+ בינארי(, והפעלת אלגוריתם ה-
+\lang english
+retinex
+\lang hebrew
+ רק על האזורים המשלימים.
+\end_layout
+
+\begin_layout Enumerate
+לחילופין, העברת 
+\lang english
+mask
+\lang hebrew
+ של האזורים המוצללים בלבד )עם מעט שוליים ע"מ לספק לאלגוריתם את צבע הרצפה
+ בתור נקודת ייחוס(.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q11.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1895,6 +2368,112 @@ twoSquares(2)
 12
 \end_layout
 
+\begin_layout Standard
+בתמונה הזו, האלגוריתם עובד טוב הרבה יותר בהשוואהלתמונה בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+11
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- הצל העיקרי בתמונה, הנמצא מתחת לספה, נעלם כבר בספים קטנים.
+\end_layout
+
+\begin_layout Standard
+עם זאת, נוצרת הילה אפורה מאחורי הספה.
+ כמו כן, הצללים הקטנים שבין הידיות וגב הספה לא נעלמים.
+\end_layout
+
+\begin_layout Standard
+השיפור בפעולת האלגוריתם נובע מכך שהתמונה הנתונה כאן מצייתת בצורה טובה הרבה
+ יותר להנחות של אלגוריתם ה-
+\lang english
+retinex
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- השינויים החדים הם הגבולות בין הספה לרקע ובין החלקים השונים בספה )שינויי
+ מקדם החזרה(, בעוד שהשינויים ההדרגתיים נובעים משינויי תאורה )הצללה(.
+ כמו כן, אין שינויי תאורה והחזרה שמתרחשים במקביל.
+ ניתן לשים לב שבמקרה של הצללים הקטנים בין הידיות לגב הספה, יש שינוי חד,
+ ולכן האלגוריתם לא מטפל בהם היטב.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename q12.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1922,6 +2501,135 @@ twoSquares(2)
 \noun default
 \color inherit
 13
+\end_layout
+
+\begin_layout Standard
+אלגוריתם ה-
+\lang english
+retinex
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ יעבוד טוב יותר על תמונות שמקיימות את ההנחות הבסיסיות שלו, קרי:
+\end_layout
+
+\begin_layout Enumerate
+תמונות בהן שינויי תאורה ושינויי מקדם החזרה מגיעים בנפרד.
+\end_layout
+
+\begin_layout Enumerate
+תמונות שבהן שינויים חדים הם שינויים במקדם ההחזרה.
+\end_layout
+
+\begin_layout Standard
+תמונות בהן יש תאורה טבעית )שיוצרת, לרוב, שינויי תאורה עדינים( יתאימו יותר
+ מתמונות עם תאורה מלאכותית )כמו פלאש, שעלול ליצור הצללות עם גבולות חדים(.
+\end_layout
+
+\begin_layout Standard
+תמונות שמציגות סצנה מלאה )שבה מוצגים כל האובייקטים, והצל שלהם, בשלמותם(
+ יתאימו יותר מתמונות של סצנות חלקיות )בהן אובייקטים עלולים להידמות לצל,
+ והצללה הדרגתית עלולה להיראות כחדה(.
+\end_layout
+
+\begin_layout Standard
+שימושי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+real-life
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ אפשריים לאלגוריתם:
+\end_layout
+
+\begin_layout Enumerate
+שיפור איכות של תמונות שצולמו תחת צל ברור - לדוגמה, גגון או עץ שיוצרים צל
+ על חלק ברור מהאובייקט.
+ דוגמה נוספת היא אובייקטים שצולמו כאשר השמש בגבם.
+\end_layout
+
+\begin_layout Enumerate
+שימוש במצלמות אבטחה - אם אנו רוצים לזהות אדם בכמה תמונות שונות, מספיק לצלם
+ אותו פעם אחת )נניח, בכניסה למתחם המאובטח( בתאורה טובה, ואז על כל הצילומים
+ העתידיים ניתן יהיה להשתמש ב-
+\lang english
+retinex
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ כדי לעשות "קנוניזציה" של התמונות ולהפחית השפעות תאורה, וכך להשוות את התמונות
+ לאותה תמונה מקורית.
+ זאת בדומה לשאלה 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\numeric off
+, שבה יצרנו זהות בין שני הריבועים על אף שאחד מהם היה תחת הצללה.
+\end_layout
+
+\begin_layout Enumerate
+שימוש עבור תמונות לווין - ניתן להשתמש באלגוריתם על מנת לתקן אפקטי הצללה
+ של עננים על הקרקע, ובכך לקבל תצלומי לווין או אוויר טובים יותר.
 \end_layout
 
 \end_body
