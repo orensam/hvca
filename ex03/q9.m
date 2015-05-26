@@ -1,5 +1,6 @@
 function [] = q9()
 %% ex3 q9
+
     I1 = twoSquares(1);
     I2 = twoSquares(2);    
     T = 0.07;
