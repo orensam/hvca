@@ -1,5 +1,6 @@
 function [] = LaplacianThres(I, thres)
-%% ex3 q4-6 helper
+%% ex3 q4-5 helper
+
     [Ix, Iy] = ImageDerivatives(I);
     L = abs(Deriv2Laplace(Ix, Iy));
     Lbin = L >= thres;
