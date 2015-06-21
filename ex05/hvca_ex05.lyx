@@ -1442,7 +1442,7 @@ axisRotate.m
 \end_layout
 
 \begin_layout Standard
-מצורפת הפונקציה
+הקוד הרלוונטי לשאלה מצורף בפונקציה
 \family roman
 \series medium
 \shape up
@@ -1467,7 +1467,7 @@ axisRotate.m
 \noun default
 \color inherit
 \lang english
-q3.m
+ex5q3to6.m
 \family roman
 \series medium
 \shape up
@@ -1480,19 +1480,7 @@ q3.m
 \noun off
 \color none
 \lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ובה הקוד הרלוונטי לשאלה.
+.
 \end_layout
 
 \begin_layout Section
@@ -1524,6 +1512,252 @@ q3.m
 4
 \end_layout
 
+\begin_layout Standard
+הקוד הרלוונטי לשאלה מצורף בפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+ex5q3to6.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+הדרגה של שתי המטריצות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\begin_inset Formula $W_{cyl},\ W_{sphere}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)למרות ששתיהן בגודל 
+\begin_inset Formula $60\times100$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+ניתן להבין זאת באמצעות שני טיעונים:
+\end_layout
+
+\begin_layout Enumerate
+פירוק אפשרי של מטריצה 
+\begin_inset Formula $W$
+\end_inset
+
+ כנ"ל הוא מהצורה 
+\begin_inset Formula $W=M\cdot S$
+\end_inset
+
+, כאשר ב-
+\begin_inset Formula $M$
+\end_inset
+
+ יש 
+\begin_inset Formula $3$
+\end_inset
+
+ עמודות וב-
+\begin_inset Formula $S$
+\end_inset
+
+ יש 
+\begin_inset Formula $3$
+\end_inset
+
+ שורות.
+ מכאן שהדרגה המקסימלית של 
+\begin_inset Formula $S$
+\end_inset
+
+ ושל 
+\begin_inset Formula $M$
+\end_inset
+
+ היא לכל היותר 
+\begin_inset Formula $3$
+\end_inset
+
+, ולכן גם הדרגה של מכפלתן 
+\begin_inset Formula $W$
+\end_inset
+
+ היא לכל היותר 
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+כל זוג שורות עוקבות במטריצה 
+\begin_inset Formula $W$
+\end_inset
+
+ מייצגות פריים בודד של אותו גוף )גליל או ספרה(.
+ אך מאופן הבניה של 
+\begin_inset Formula $W$
+\end_inset
+
+, כל פריים הוא טרנספורמציה לינארית )סיבוב( של הפריים הקודם, ולכן לא "מתווסף
+ מידע" כאשר מוסיפים פריים למטריצה.
+ אמנם, אנו "מוותרים" על קואורדינטת ה-
+\begin_inset Formula $Z$
+\end_inset
+
+ )כלומר, מבצעים הטלה( בכל אחד מהפריימים, אך שורות 
+\begin_inset Formula $W$
+\end_inset
+
+ הן עדיין צירופים לינאריים של קואורדינטות ה-
+\begin_inset Formula $X$
+\end_inset
+
+, 
+\begin_inset Formula $Y$
+\end_inset
+
+ ו-
+\begin_inset Formula $Z$
+\end_inset
+
+ המקוריות, שהן ממימד 
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1553,6 +1787,126 @@ q3.m
 5
 \end_layout
 
+\begin_layout Standard
+הקוד הרלוונטי לשאלה מצורף בפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+ex5q3to6.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+בהחלט נוצרת תפיסה של המבנה המקורי של הגופים מתוך התנועה של ההטלות הדו-מימדיות
+ שלהם.
+ כלומר, מתרחש כאן תהליך של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+structure-from-motion
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תפיסתי.
+\end_layout
+
+\begin_layout Standard
+מצורפות דוגמאות לפריימים מתוך האנימציה של הגליל )שמאל( והספרה )ימין(.
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename q5_sphere.png
+	scale 41
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename q5_cylinder.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 שאלה
 \family roman
@@ -1580,6 +1934,92 @@ q3.m
 \noun default
 \color inherit
 6
+\end_layout
+
+\begin_layout Standard
+הקוד הרלוונטי לשאלה מצורף בפונקציה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+ex5q3to6.m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+תוצאת אלגוריתם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Tomasi-Kanade
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ מתאימה היטב לתפיסה הויזואלית שלנו, ומצליחה לשחזר היטב את הגופים המקוריים
+ מתוך הפריימים הדו-מימדיים - כפי שניתן לראות בפלטים המצורפים )גליל משמאל,
+ ספרה מימין(.
 \end_layout
 
 \end_body
