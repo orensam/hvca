@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\date{}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -28,7 +31,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,6 +55,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
 \secnumdepth -2
 \tocdepth 3
 \paragraph_separation indent
@@ -308,10 +315,10 @@
 \uwave default
 \noun default
 \color inherit
-מטריצת האורות ה- 
-\begin_inset Formula $primary$
-\end_inset
-
+מטריצת האורות ה-
+\lang english
+primary
+\lang hebrew
  )להלן "העיקריים"(.
  יהא 
 \begin_inset Formula $\alpha\in\mathbb{R}^{k}$
@@ -322,30 +329,30 @@
 \end_inset
 
 .
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 תהא המטריצה 
 \begin_inset Formula $S_{k\times400}$
 \end_inset
 
- מטריצת המעבר בין האור לבין ייצוגו המוחי הנתפש, עבורה ראינו כי שני האורות
+ מטריצת המעבר בין האור לבין ייצוגו המוחי הנתפס, עבורה ראינו כי שני האורות
  יתפשו כזהים אם מתקיים: 
 \begin_inset Formula $S\cdot l=S\cdot X=S\cdot P\cdot\alpha$
 \end_inset
 
 , כלומר תנאי הכרחי לקבל וקטור מקדמים המוגדר: 
-\begin_inset Formula $\alpha=S\cdot l\cdot\left(S\cdot P\right)^{-1}$
+\begin_inset Formula $\alpha=\left(S\cdot P\right)^{-1}\cdot S\cdot l$
 \end_inset
 
  הוא שהמטריצה 
 \begin_inset Formula $S\cdot P$
 \end_inset
 
- תהא הפיכה.
-\begin_inset Newline newline
-\end_inset
+ תהיה הפיכה.
+\end_layout
 
+\begin_layout Standard
 כלומר, עבור 
 \begin_inset Formula $S\cdot P$
 \end_inset
@@ -422,34 +429,8 @@
 
 
 \lang hebrew
-(
-\lang english
-;
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-תהא מטריצת המעבר 
+(.
+ תהא מטריצת המעבר 
 \begin_inset Formula $\left\{ S_{i,j}\right\} _{\left(i,j\right)=\left(3\times400\right)}=s_{i,j}$
 \end_inset
 
@@ -476,17 +457,17 @@ s_{3,1} & s_{3,1} & s_{3,1}
 
 \end_inset
 
-נדרג אותה:
-\begin_inset Newline newline
+שלוש העמודות של 
+\begin_inset Formula $SP$
 \end_inset
 
-
+ זהות זו לזו, לכן ניתן לדרג את עמודותיה ולקבל:
 \begin_inset Formula 
 \[
 ...=\left(\begin{array}{ccc}
-s_{1,1} & s_{1,1} & s_{1,1}\\
-0 & 0 & 0\\
-0 & 0 & 0
+s_{1,1} & 0 & 0\\
+s_{2,1} & 0 & 0\\
+s_{3,1} & 0 & 0
 \end{array}\right)
 \]
 
@@ -496,7 +477,11 @@ s_{1,1} & s_{1,1} & s_{1,1}\\
 \begin_inset Formula $rank\left(SP\right)=1$
 \end_inset
 
-, לכן היא אינה הפיכה.
+, ולכן 
+\begin_inset Formula $SP$
+\end_inset
+
+ אינה הפיכה.
 \end_layout
 
 \begin_layout Subsubsection
@@ -532,15 +517,15 @@ s_{1,1} & s_{1,1} & s_{1,1}\\
 RGB
 \lang hebrew
  בכדי לייצג אור.
- עבור מערכת של חייזר )או של עיוור צבעים מסוים( שמשתמש רק ב)בה"כ( 
-\begin_inset Formula $RG$
-\end_inset
-
+ עבור מערכת של חייזר )או של עיוור צבעים מסוים( שמשתמש, לדוגמה, רק ב-
+\lang english
+RG
+\lang hebrew
 , לא ניתן יהיה לזהות, למשל, סגול )שכן הוא מורכב באופן חלקי מכחול, כלומר
- מ- 
-\begin_inset Formula $B$
-\end_inset
-
+ מ-
+\lang english
+B
+\lang hebrew
 (.
 \end_layout
 
@@ -577,7 +562,7 @@ random sample
 \begin_inset Formula $S$
 \end_inset
 
- בת"ל, שכן אחרת היה ניתן לוותר על אחת משורותיה )זו שהיא צ"ל של האחרות(,
+ בת"ל, שכן אחרת ניתן היה לוותר על אחת משורותיה )זו שהיא צ"ל של האחרות(,
  כלומר לוותר על סנסור.
 \end_layout
 
@@ -626,12 +611,25 @@ random sample
 
 \end_inset
 
-נסתכל על ההסתברות ש- 
-\begin_inset Formula $P_{1,1}$
+
+\end_layout
+
+\begin_layout Standard
+נוכיח את הטענה באינדוקציה על מספר העמודות במטריצה 
+\begin_inset Formula $k$
 \end_inset
 
- תלוי לינארית ב- 
-\begin_inset Formula $P_{1,2}$
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+בסיס האינדוקציה:
+\series default
+ עבור 
+\begin_inset Formula $k=2$
 \end_inset
 
 .
@@ -639,23 +637,46 @@ random sample
 \begin_inset Formula $\frac{P_{1,1}}{P_{1,2}}=\beta$
 \end_inset
 
-, ונשים לב שההסתברות הנ"ל שווה להסתברות לדגום את 
-\begin_inset Formula $P_{1,2}$
+ ונשים לב שההסתברות שזוג איברים נוסף מאותה שורה יקיים )נסמן שורה 
+\begin_inset Formula $i\in\left[2,400\right]$
 \end_inset
 
- המקיים 
-\begin_inset Formula $P_{1,1}=\beta\cdot P_{1,2}$
+( 
+\begin_inset Formula $\frac{P_{i,1}}{P_{i,2}}=\beta$
 \end_inset
 
- מ- 
+ שואפת לאפס, מכיוון שמדובר בשליפה של מספר יחיד מתוך שדה רציף )
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-, וההסתברות לכך כמובן שואפת לאפס )קיים רק מספר אחד כזה שכן הוא נקבע ביחידות(.
- באופן אינדוקטיבי נסיק זאת לגביי כל האיברים בעמודה הראשונה )במילים אחרות,
- ההסתברות שהעמודה הראשונה תלויה בשניה שואפת לאפס(
-\lang english
-;
+(.
+ מתוך כך נסיק כי הדבר מתקיים לכל 
+\begin_inset Formula $i$
+\end_inset
+
+ כנ"ל, לכן ההסתברות שהעמודות ת"ל שואפת לאפס.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+צעד האינדוקציה:
+\series default
+ נניח נכונות עד 
+\begin_inset Formula $k-1$
+\end_inset
+
+ ונוכיח עבור 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ מהנחת האינדוקציה נדע כי 
+\begin_inset Formula $k-1$
+\end_inset
+
+ העמודות הראשונות בת"ל.
+ כעת, משאלה
 \family roman
 \series medium
 \shape up
@@ -667,7 +688,32 @@ random sample
 \uwave off
 \noun off
 \color none
-\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
  
 \family default
 \series default
@@ -680,16 +726,55 @@ random sample
 \uwave default
 \noun default
 \color inherit
-ולאחר מכן נמשיך באופן אינדוקטיבי על העמודות ונסיק כי ההסתברות שקיימת עמודה
- שתלויה לינארית באחרות שואפת לאפס, כלומר 
+סעיף ב' נסיק כי הסיכוי שהעמודה ה- 
+\begin_inset Formula $k$
+\end_inset
+
+ )שנדגמה רנדומלית( תלויה לינארית ב- 
+\begin_inset Formula $k-1$
+\end_inset
+
+ העמודות הראשונות שואף לאפס - ולכן ההסתברות של 
+\begin_inset Formula $k$
+\end_inset
+
+ העומודות ת"ל שואפת לאפס, ומכאן שהטענה נכונה עבור 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכאן ש-
 \begin_inset Formula $P$
 \end_inset
 
- היא ת"ל בהסתברות שואפת לאפס - ומתוך כך נסיק כי ההסתברות ש- 
+ היא ת"ל בהסתברות שואפת לאפס.
+\end_layout
+
+\begin_layout Standard
+כלומר, 
+\begin_inset Formula $S$
+\end_inset
+
+ ו-
+\begin_inset Formula $P$
+\end_inset
+
+ שתיהן בת"ל בהתסברות 
+\begin_inset Formula $1$
+\end_inset
+
+, ולכן גם מכפלתן 
 \begin_inset Formula $SP$
 \end_inset
 
- אינה הפיכה שואפת לאפס.
+ בת"ל, ולכן הפיכה, בהסתברות 
+\begin_inset Formula $1$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -706,17 +791,17 @@ random sample
 \end_inset
 
  המטריצה המתאימה.
- נגדיר את הניסוי הבא:
-\begin_inset Newline newline
-\end_inset
+ נבנה את הניסוי באופן הבא:
+\end_layout
 
+\begin_layout Standard
 בדומה לניסוי שנידון בכיתה, נריץ ניסוי על נבדקים אנושיים, כאשר כל נבדק יישב
  מול מסך.
  לכל 
 \begin_inset Formula $i\in\left[k\right]$
 \end_inset
 
- בצד אחד של המסך נראה לו את הצבע 
+, בצד אחד של המסך נראה לנבדק את הצבע 
 \begin_inset Formula $P_{i}$
 \end_inset
 
@@ -728,7 +813,7 @@ random sample
 \begin_inset Formula $k-1$
 \end_inset
 
- הפנסים הנותרים, במטרה ששני הצבעים ייראו בדיוק אותו הדבר.
+ הפנסים הנותרים, במטרה ששני הצבעים ייראו זהים.
  אם הנבדקים יצליחו לכוון עבור 
 \begin_inset Formula $i$
 \end_inset
@@ -737,9 +822,7 @@ random sample
 \begin_inset Formula $k-1$
 \end_inset
 
- הפנסים כך שהצבעים יהיו זהים באופן מובהק, אזי נחזיר "כן" ונסיים
-\lang english
-;
+ הפנסים כך שהצבעים יהיו זהים באופן מובהק, אז נחזיר "כן" ונסיים;
 \family roman
 \series medium
 \shape up
@@ -751,7 +834,6 @@ random sample
 \uwave off
 \noun off
 \color none
-\lang hebrew
  
 \family default
 \series default
@@ -806,31 +888,9 @@ random sample
 \noun off
 \color none
  
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\begin_inset Formula $1$
+\end_inset
+
  
 \family default
 \series default
@@ -847,53 +907,22 @@ random sample
 \begin_inset Formula $k$
 \end_inset
 
-( אלא בכל פעם נגריל אחד )שעוד לא שלפנו כבר( באופן רנדומלי.
-\begin_inset Newline newline
-\end_inset
+( - אלא בכל פעם נגריל אחד )שעוד לא שלפנו כבר( באופן רנדומלי.
+\end_layout
 
+\begin_layout Standard
 נשים לב כי ניתן לזהות תלות לינארית באמצעות הניסוי, שכן נקבל "כן" אמ"מ קיים
- אור שהוא צ"ל של האורות האחרים )
-\begin_inset Formula $i.e.$
-\end_inset
-
- קיימת עמודה שהיא צ"ל של העמודות האחרות ב- 
+ אור שהוא צ"ל של האורות האחרים )כלומר, קיימת עמודה שהיא צ"ל של העמודות האחרות
+ ב- 
 \begin_inset Formula $P$
 \end_inset
 
 (, לכן הבחירה רעה.
- 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-נשים לב כי מספר ההתאמות הוא מינימלי, מכיוון שאנו עוצרים ברגע החזרת "כן"
- לא יהיו בדיקות מיותרות בהנחה שקיימת תלות
-\lang english
-;
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ומכיוו שאנו מגרילים את 
+\begin_layout Standard
+נשים לב כי מספר ההתאמות הוא מינימלי - מכיוון שאנו עוצרים ברגע החזרת "כן",
+ לא יהיו בדיקות מיותרות בהנחה שקיימת תלות; ומכיוו שאנו מגרילים את 
 \begin_inset Formula $i$
 \end_inset
 
@@ -975,7 +1004,7 @@ random sample
 \begin_inset Formula $k-1$
 \end_inset
 
- שכן הם בת"ל.
+ שכן מקורות האור הם בת"ל.
  כעת נשים לב כי 
 \begin_inset Formula $\bar{l}$
 \end_inset
@@ -987,7 +1016,7 @@ random sample
 ( מוגדרת באופן הבא: 
 \begin_inset Formula 
 \[
-\bar{l}=\left\{ y:y\in Span\left(X\right)\right\} 
+\bar{l}\equiv Span\left(X\right)
 \]
 
 \end_inset
@@ -1006,7 +1035,7 @@ random sample
 \begin_layout Standard
 \begin_inset Formula 
 \[
-l=\left\{ y:\exists\left\{ \alpha_{i}\right\} _{i=1}^{k-1}\in\mathbb{R},x_{k}\notin Span\left(X\right),\alpha_{k}\neq0\quad s.t.\quad y=\left\{ \alpha_{i}x_{i}\right\} _{i=1}^{k-1}+\alpha_{k}x_{k}\right\} 
+l=\left\{ y:\exists\left\{ \alpha_{i}\right\} _{i=1}^{k-1}\in\mathbb{R},x_{k}\notin Span\left(X\right),\alpha_{k}\neq0\quad s.t.\quad y=\sum_{i=1}^{k-1}\alpha_{i}x_{i}+\alpha_{k}x_{k}\right\} 
 \]
 
 \end_inset
@@ -1410,8 +1439,31 @@ P\left(l\in Span\left(X\right)\right)=P\left(\alpha_{k}=0\right)=0
 \noun default
 \color inherit
 400
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
 \numeric off
- קטורי מקדמים: 
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וקטורי מקדמים: 
 \begin_inset Formula $\left\{ x_{j}\in\mathbb{R}^{q}\right\} _{j=1}^{400}$
 \end_inset
 
@@ -1527,6 +1579,22 @@ P\left(l\in Span\left(X\right)\right)=P\left(\alpha_{k}=0\right)=0
 \end_layout
 
 \begin_layout Standard
+נראה את שתי התכונות הנדרשות ובכך נוכיח ש-
+\begin_inset Formula $y$
+\end_inset
+
+ היא פונקציה בילינארית ב-
+\begin_inset Formula $\rho$
+\end_inset
+
+ ו-
+\begin_inset Formula $l$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -1589,7 +1657,7 @@ y\left(\rho,\alpha l_{1}+\beta l_{2}\right)=\alpha y\left(\rho,l_{1}\right)+\bet
 \begin_inset Formula 
 \begin{eqnarray*}
 y\left(\rho,\alpha l_{1}+\beta l_{2}\right) & = & \int\rho\cdot\left(\alpha l_{1}+\beta l_{2}\right)S_{i}\left(\lambda\right)d\lambda\\
- & = & \alpha\int\rho\cdot l_{1}S_{i}\left(\lambda\right)d+\beta\int\rho\cdot l_{2}S_{i}\left(\lambda\right)d\lambda\\
+ & = & \alpha\int\rho\cdot l_{1}S_{i}\left(\lambda\right)d\lambda+\beta\int\rho\cdot l_{2}S_{i}\left(\lambda\right)d\lambda\\
  & = & \alpha y\left(\rho,l_{1}\right)+\beta y\left(\rho,l_{2}\right)
 \end{eqnarray*}
 
@@ -1660,9 +1728,9 @@ y\left(\rho,\alpha l_{1}+\beta l_{2}\right) & = & \int\rho\cdot\left(\alpha l_{1
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray*}
- & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)=D_{ii}\int\rho\cdot l_{2}\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)\\
-\Rightarrow & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)-D_{ii}\int\rho\cdot l_{2}\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)=0\\
-\Rightarrow & \int\rho\cdot\left(l_{1}-D_{ii}\cdot l_{2}\right)\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)=0
+ & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\lambda=D_{ii}\int\rho\cdot l_{2}\cdot S_{i}\left(\lambda\right)d\lambda\\
+\Rightarrow & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\lambda-D_{ii}\int\rho\cdot l_{2}\cdot S_{i}\left(\lambda\right)d\lambda=0\\
+\Rightarrow & \int\rho\cdot\left(l_{1}-D_{ii}\cdot l_{2}\right)\cdot S_{i}\left(\lambda\right)d\lambda=0
 \end{eqnarray*}
 
 \end_inset
@@ -1706,7 +1774,7 @@ y\left(\rho,\alpha l_{1}+\beta l_{2}\right) & = & \int\rho\cdot\left(\alpha l_{1
 \begin_inset Formula $\rho$
 \end_inset
 
- אחד משני התנאים צריכים להתקיים: )
+, צריך להתקיים אחד משני התנאים הבאים: )
 \numeric on
 1
 \numeric off
@@ -1775,9 +1843,9 @@ y\left(\rho,\alpha l_{1}+\beta l_{2}\right) & = & \int\rho\cdot\left(\alpha l_{1
 \begin_inset Formula 
 \begin{eqnarray*}
  & y\left(\rho,l_{1}\right)=\sum_{j=1}^{k}A_{ij}\cdot y_{j}\left(\rho,l_{2}\right)\\
-\Rightarrow & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)=\sum_{j=1}^{k}A_{ij}\cdot\int\rho\cdot l_{2}\cdot S_{j}\left(\lambda\right)d\left(\lambda\right)\\
-\Rightarrow & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\left(\lambda\right)-\sum_{j=1}^{k}A_{ij}\cdot\int\rho\cdot l_{2}\cdot S_{j}\left(\lambda\right)d\left(\lambda\right)=0\\
-\Rightarrow & \int\rho\cdot\left(l_{1}\cdot S_{i}\left(\lambda\right)-\sum_{j=1}^{k}A_{ij}\cdot l_{2}\cdot S_{j}\left(\lambda\right)\right)d\left(\lambda\right)=0
+\Rightarrow & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\lambda=\sum_{j=1}^{k}A_{ij}\cdot\int\rho\cdot l_{2}\cdot S_{j}\left(\lambda\right)d\lambda\\
+\Rightarrow & \int\rho\cdot l_{1}\cdot S_{i}\left(\lambda\right)d\lambda-\sum_{j=1}^{k}A_{ij}\cdot\int\rho\cdot l_{2}\cdot S_{j}\left(\lambda\right)d\lambda=0\\
+\Rightarrow & \int\rho\cdot\left(l_{1}\cdot S_{i}\left(\lambda\right)-\sum_{j=1}^{k}A_{ij}\cdot l_{2}\cdot S_{j}\left(\lambda\right)\right)d\lambda=0
 \end{eqnarray*}
 
 \end_inset
@@ -1795,10 +1863,14 @@ S_{i}\left(\lambda\right)\cdot\left(l_{1}-A_{ii}\cdot l_{2}\right)-\sum_{j=1\wed
 
 \end_inset
 
-ואז מתקיים אחד משני מקרים: 
+וזה ייתכן באחד משני מקרים: 
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Formula $S_{j}\left(\lambda\right)$
+\end_inset
+
+ בת"ל, לכן 
 \begin_inset Formula $A$
 \end_inset
 
@@ -1822,26 +1894,11 @@ S_{i}\left(\lambda\right)\cdot\left(l_{1}-A_{ii}\cdot l_{2}\right)-\sum_{j=1\wed
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $A$
+\begin_inset Formula $S_{j}\left(\lambda\right)$
 \end_inset
 
- אינה אלכסונית, כלומר קיים לפחות מקום אחד במטריצה המקיים: 
-\begin_inset Formula $A_{ij_{i\neq j}}\neq0$
-\end_inset
-
- כלומר קיימת לפחות שורה אחת 
-\begin_inset Formula $\left(i\right)$
-\end_inset
-
-שהיא צ"ל של השורות האחרות, ובהתאמה 
-\begin_inset Formula $S_{i}\left(\lambda\right)$
-\end_inset
-
- ת"ל ו- 
-\begin_inset Formula $A$
-\end_inset
-
- היא מטריצה ההעתקה לאפס )הגרעין של ההעתקה(.
+ ת"ל, כלומר המטריצה היא מטריצת ההעתקה לאפס )הגרעין של ההעתקה(, ובהתאמה שורות
+ המטריצה הם המקדמים הלינאריים לייצוג של שחור )אפס(.
 \end_layout
 
 \end_body
