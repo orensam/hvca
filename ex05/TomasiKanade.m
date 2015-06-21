@@ -12,6 +12,6 @@ function [M, S] = TomasiKanade(W)
     A = findA(Q);
     
     M = Mh * A;
-    S = inv(A) * Sh;
+    S = (A^-1) * Sh;
     
 end
