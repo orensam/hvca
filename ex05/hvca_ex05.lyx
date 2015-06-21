@@ -730,7 +730,7 @@ SVD
 \begin_inset Formula $AA^{T}=A^{T}A$
 \end_inset
 
-, ולכן גם הוקטורים העצמיים של 
+, ולכן הוקטורים העצמיים של 
 \begin_inset Formula $AA^{T}$
 \end_inset
 
