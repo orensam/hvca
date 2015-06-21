@@ -1,6 +1,7 @@
 function [M, S] = TomasiKanade(W)
 %% ex5 q1
-% Given a matrix W, and returns the decomposition matrices M, S
+% Given a matrix W (2FxP), returns the decomposition matrices M (2Fx3) and
+% S (3xP)
 
     [U, Sigma, V] = svd(W);
     
